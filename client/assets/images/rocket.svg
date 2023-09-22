@@ -1,0 +1,152 @@
+<svg id="ew8gtmpdjKb1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 1440 584" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+    <style>
+        <![CDATA[
+        #ew8gtmpdjKb2_to {
+            animation: ew8gtmpdjKb2_to__to 20000ms linear normal forwards
+        }
+
+        @keyframes ew8gtmpdjKb2_to__to {
+            0% {
+                offset-distance: 0%
+            }
+
+            100% {
+                offset-distance: 100%
+            }
+        }
+
+        #ew8gtmpdjKb2_tr {
+            animation: ew8gtmpdjKb2_tr__tr 20000ms linear normal forwards
+        }
+
+        @keyframes ew8gtmpdjKb2_tr__tr {
+            0% {
+                transform: rotate(5.440131deg)
+            }
+
+            18% {
+                transform: rotate(0.840546deg)
+            }
+
+            32% {
+                transform: rotate(-3.009973deg)
+            }
+
+            49% {
+                transform: rotate(-5.93169deg)
+            }
+
+            66% {
+                transform: rotate(-9.423365deg)
+            }
+
+            77% {
+                transform: rotate(-13.635385deg)
+            }
+
+            82% {
+                transform: rotate(-15.957931deg)
+            }
+
+            88% {
+                transform: rotate(-20.722769deg)
+            }
+
+            94% {
+                transform: rotate(-26.261239deg)
+            }
+
+            100% {
+                transform: rotate(-26.261239deg)
+            }
+        }
+        ]]>
+    </style>
+    <defs>
+        <linearGradient id="ew8gtmpdjKb5-fill" x1="403.799" y1="38.8692" x2="358.813" y2="42.8374" spreadMethod="pad"
+            gradientUnits="userSpaceOnUse" gradientTransform="translate(0 0)">
+            <stop id="ew8gtmpdjKb5-fill-0" offset="0%" stop-color="#ffe900" />
+            <stop id="ew8gtmpdjKb5-fill-1" offset="17%" stop-color="#ffca1a" />
+            <stop id="ew8gtmpdjKb5-fill-2" offset="54%" stop-color="#ff7c5f" />
+            <stop id="ew8gtmpdjKb5-fill-3" offset="100%" stop-color="#ff13bd" />
+        </linearGradient>
+        <linearGradient id="ew8gtmpdjKb6-fill" x1="412.274" y1="72.5969" x2="373.673" y2="61.6424" spreadMethod="pad"
+            gradientUnits="userSpaceOnUse" gradientTransform="translate(0 0)">
+            <stop id="ew8gtmpdjKb6-fill-0" offset="0%" stop-color="#ffe900" />
+            <stop id="ew8gtmpdjKb6-fill-1" offset="17%" stop-color="#ffca1a" />
+            <stop id="ew8gtmpdjKb6-fill-2" offset="54%" stop-color="#ff7c5f" />
+            <stop id="ew8gtmpdjKb6-fill-3" offset="100%" stop-color="#ff13bd" />
+        </linearGradient>
+        <linearGradient id="ew8gtmpdjKb7-fill" x1="391.194" y1="-6.82118" x2="363.011" y2="21.7407" spreadMethod="pad"
+            gradientUnits="userSpaceOnUse" gradientTransform="translate(0 0)">
+            <stop id="ew8gtmpdjKb7-fill-0" offset="0%" stop-color="#ffe900" />
+            <stop id="ew8gtmpdjKb7-fill-1" offset="17%" stop-color="#ffca1a" />
+            <stop id="ew8gtmpdjKb7-fill-2" offset="54%" stop-color="#ff7c5f" />
+            <stop id="ew8gtmpdjKb7-fill-3" offset="100%" stop-color="#ff13bd" />
+        </linearGradient>
+        <linearGradient id="ew8gtmpdjKb8-fill" x1="468.06" y1="47.254" x2="378.672" y2="26.6442" spreadMethod="pad"
+            gradientUnits="userSpaceOnUse" gradientTransform="translate(0 0)">
+            <stop id="ew8gtmpdjKb8-fill-0" offset="0%" stop-color="#bdf7a3" />
+            <stop id="ew8gtmpdjKb8-fill-1" offset="100%" stop-color="#009ee0" />
+        </linearGradient>
+        <linearGradient id="ew8gtmpdjKb9-fill" x1="394.762" y1="40.3767" x2="357.131" y2="38.3412" spreadMethod="pad"
+            gradientUnits="userSpaceOnUse" gradientTransform="translate(0 0)">
+            <stop id="ew8gtmpdjKb9-fill-0" offset="0%" stop-color="#ffe900" />
+            <stop id="ew8gtmpdjKb9-fill-1" offset="17%" stop-color="#ffca1a" />
+            <stop id="ew8gtmpdjKb9-fill-2" offset="54%" stop-color="#ff7c5f" />
+            <stop id="ew8gtmpdjKb9-fill-3" offset="100%" stop-color="#ff13bd" />
+        </linearGradient>
+        <linearGradient id="ew8gtmpdjKb10-fill" x1="431.281" y1="21.6952" x2="397.531" y2="43.0441" spreadMethod="pad"
+            gradientUnits="userSpaceOnUse" gradientTransform="translate(0 0)">
+            <stop id="ew8gtmpdjKb10-fill-0" offset="0%" stop-color="#0e216d" />
+            <stop id="ew8gtmpdjKb10-fill-1" offset="9%" stop-color="#142171" />
+            <stop id="ew8gtmpdjKb10-fill-2" offset="23%" stop-color="#27217d" />
+            <stop id="ew8gtmpdjKb10-fill-3" offset="39%" stop-color="#472191" />
+            <stop id="ew8gtmpdjKb10-fill-4" offset="57%" stop-color="#7221ac" />
+            <stop id="ew8gtmpdjKb10-fill-5" offset="77%" stop-color="#aa21cf" />
+            <stop id="ew8gtmpdjKb10-fill-6" offset="98%" stop-color="#ed21fa" />
+            <stop id="ew8gtmpdjKb10-fill-7" offset="100%" stop-color="#f522ff" />
+        </linearGradient>
+        <linearGradient id="ew8gtmpdjKb11-fill" x1="427.901" y1="29.193" x2="410.688" y2="28.2657" spreadMethod="pad"
+            gradientUnits="userSpaceOnUse" gradientTransform="translate(0 0)">
+            <stop id="ew8gtmpdjKb11-fill-0" offset="0%" stop-color="#ffe900" />
+            <stop id="ew8gtmpdjKb11-fill-1" offset="17%" stop-color="#ffca1a" />
+            <stop id="ew8gtmpdjKb11-fill-2" offset="54%" stop-color="#ff7c5f" />
+            <stop id="ew8gtmpdjKb11-fill-3" offset="100%" stop-color="#ff13bd" />
+        </linearGradient>
+    </defs>
+    <g id="ew8gtmpdjKb2_to"
+        style="offset-path:path('M-10.593789,630.810563C794.738508,484.447622,1427.428931,174.841299,1561.323495,3.14174');offset-rotate:0deg">
+        <g id="ew8gtmpdjKb2_tr" transform="rotate(5.440131)">
+            <g transform="translate(-401.65253,-33.61784)">
+                <path
+                    d="M342.778,26.9155c-2.369.8388-4.49,2.0647-6.318,3.5818c6.378-1.6638,10.727.5106,10.467,4.4835-.244,3.7218-6.424,3.4605-9.062,4.2137-4.472,1.2784-9.38,3.337-10.729,12.7599c5.148-5.5401,10.108-4.01,11.431-1.032c1.469,3.3041-.615,7.5441-6.191,8.226c4.058,2.7491,8.71,1.2233,11.288-.9811c2.687-2.2987,5.713-1.9687,7.034.8486c1.477,3.1486-1.697,6.3123-8.368,6.7936c4.431,1.6865,9.46,1.8705,14.279.164c10.786-3.8195,16.433-15.6588,12.614-26.4446-3.82-10.7857-15.659-16.4328-26.445-12.6134Z"
+                    fill="#f4900c" />
+                <path
+                    d="M351.208,32.4704c3.483-1.4246,5.973,1.1956,5.896,3.1081-.112,2.7622-2.005,2.7022-5.231,4.5452s-4.771,5.0833-4.571,8.9979c6.36-5.1609,10.464-2.0932,11.689-.1571c1.251,1.9772,1.525,4.3117-2.989,6.1883c3.386,1.6245,7.391,1.954,11.21.6018.422-.1497.829-.3234,1.229-.5066c2.237-4.7609,2.676-10.3684.782-15.7193-1.895-5.351-5.766-9.4322-10.5-11.7246-.427.1097-.852.2305-1.275.3802-2.512.8897-4.628,2.3941-6.24,4.2861Z"
+                    fill="#ffcc4d" />
+                <path d="M375.354,55.9579l-7.782-29.5173-5.996,1.5807l7.782,29.5174l5.996-1.5808Z"
+                    fill="url(#ew8gtmpdjKb5-fill)" />
+                <path
+                    d="M405.397,51.768L394.216,74.071c-.648,1.2974-1.907,2.1559-3.338,2.3086l-22.99,2.442c-1.069.1145-1.565-1.2973-.649-1.8697l11.066-6.9446v-15.0532l27.092-3.2052v.0191Z"
+                    fill="url(#ew8gtmpdjKb6-fill)" />
+                <path
+                    d="M395.59,14.6025L374.871,0.713143c-1.202-.801308-2.729-.934864-4.045-.362501L349.61,9.56568c-.992.41973-.706,1.88882.363,1.94602l13.05.5915l7.402,13.107l25.184-10.5887-.019-.019Z"
+                    fill="url(#ew8gtmpdjKb7-fill)" />
+                <path
+                    d="M460,17.5026c-26.481-29.057-94.745,5.0749-94.745,5.0749l4.904,18.6018l4.903,18.6018c0,0,76.219-3.9684,84.938-42.2976v.0191Z"
+                    fill="url(#ew8gtmpdjKb8-fill)" />
+                <path
+                    d="M356.917,44.9378c-.229-.8585.286-1.7171,1.126-1.946L396.468,32.861c.858-.229,1.717.2862,1.946,1.1256.228.8395-.287,1.7171-1.126,1.9461L358.863,46.0635c-.839.2289-1.717-.2862-1.946-1.1257v0Z"
+                    fill="url(#ew8gtmpdjKb9-fill)" />
+                <path
+                    d="M423.254,40.8548c-6.659,1.7553-13.489-2.2131-15.244-8.8906-1.755-6.6585,2.213-13.4887,8.891-15.244c6.658-1.7552,13.488,2.2132,15.244,8.8907c1.755,6.6776-2.214,13.4887-8.891,15.2439Z"
+                    fill="url(#ew8gtmpdjKb10-fill)" />
+                <path
+                    d="M422.453,37.8596c-5.017,1.3164-10.15-1.6789-11.466-6.6776-1.316-5.0177,1.679-10.1498,6.678-11.4663c5.017-1.3164,10.149,1.6789,11.466,6.6776c1.316,5.0177-1.679,10.1499-6.678,11.4663Z"
+                    fill="url(#ew8gtmpdjKb11-fill)" />
+            </g>
+        </g>
+    </g>
+</svg>

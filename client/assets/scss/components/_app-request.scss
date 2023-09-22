@@ -1,0 +1,17 @@
+.request-block{
+  background-color: #D52027 !important;
+  height: 460px !important; 
+  position: relative;
+  font-size:20px
+}
+
+.request-block__text{
+  font-size: 36px; 
+  font-weight: 600; 
+  width: 65%;
+}
+.request-block__img{
+  min-width: 100% !important; 
+  position: absolute !important; 
+  bottom: 0 !important; 
+}
