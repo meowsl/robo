@@ -1,5 +1,6 @@
+
 <template>
-    <v-container fluid style="height: 100vh; background-color: #141024;">
+<!--    <v-container fluid style="height: 100vh; background-color: #141024;">
       <v-row class="text-white text-center align-center px-5" style="font-size: 30px; font-weight: 700;">
         <v-col cols="4" class="text-start">
           <a href="#">ROBO.SCHOOL</a>
@@ -30,7 +31,7 @@
               </v-col>
             </v-row>
         </v-container>
-      </v-container>
+      </v-container> -->
 </template>
 
 
