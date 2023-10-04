@@ -1,17 +1,35 @@
 .request-block{
   background-color: #D52027 !important;
-  height: 460px !important; 
+  height: 460px !important;
   position: relative;
-  font-size:20px
+  font-size:20px;
+
+  &__text{
+    font-size: 36px;
+    font-weight: 600;
+    width: 65%;
+  }
+  &__img{
+    min-width: 100% !important;
+    position: absolute !important;
+    bottom: 0 !important;
+  }
 }
 
-.request-block__text{
-  font-size: 36px; 
-  font-weight: 600; 
-  width: 65%;
-}
-.request-block__img{
-  min-width: 100% !important; 
-  position: absolute !important; 
-  bottom: 0 !important; 
+.form-input{
+  border-radius: 0px !important;
+
+  &__btn{
+    background-color: #141024 !important;
+    // border: none !important;
+    color: #fff !important;
+
+    &:hover{
+      border: none !important;
+    }
+
+    &__text{
+      color: #fff !important;
+    }
+  }
 }

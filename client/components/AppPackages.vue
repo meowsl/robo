@@ -1,24 +1,28 @@
 <template>
-  <v-container class="packages pa-16 align-center">
-    <v-title class="block-title"> Выберите нужный пакет</v-title>
-    <v-row>
-      <v-col cols="4" v-for="pack in packList" :key="pack.id">
-        <PackageCard :pack="pack" />
-      </v-col>
-
-    </v-row>
-
-  </v-container>
+  <div class="packages default-spacing">
+    <VContainer class="packages-block pa-16 align-center">
+      <p class="block-title"> Выберите нужный пакет</p>
+      <VRow>
+        <VCol
+          cols="4"
+          v-for="pack in packList"
+          :key="pack.id"
+        >
+          <PackageCard :pack="pack" />
+        </VCol>
+      </VRow>
+    </VContainer>
+  </div>
 </template>
 
 <script setup lang="ts">
-  import { PackagesInfo } from 'models/teach_info';
+import { PackagesInfo } from 'models/teach_info'
 
-  const { $api } = useNuxtApp()
-  const packList = ref<PackagesInfo[]>([])
-  const getPacks = async () => {
-    packList.value = await $api<PackagesInfo[]>('contentapp/packages/')
-  }
-  getPacks()
+const { $api } = useNuxtApp()
+const packList = ref<PackagesInfo[]>([])
+const getPacks = async () => {
+  packList.value = await $api<PackagesInfo[]>('contentapp/packages/')
+}
+getPacks()
 
 </script>

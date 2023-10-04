@@ -23,3 +23,15 @@ li {
 body {
   margin: 0;
 }
+.block-title {
+  font-size: 50px;
+  font-weight: 600;
+  color: #141024;
+}
+.default-spacing{
+  padding:0 18% !important;
+
+  @media (max-width: 1800px){
+    padding:0 10% !important;
+  }
+}

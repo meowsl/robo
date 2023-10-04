@@ -1,5 +1,5 @@
 <template>
-    <v-footer class="footer text-white">
+    <v-footer class="footer text-white px-16">
       <v-row class="d-flex justify-space-between">
       <v-col cols="6">
         <p class="footer-school">ROBO.SCHOOL</p>

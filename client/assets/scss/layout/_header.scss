@@ -1,1 +1,11 @@
 @charset 'UTF-8';
+
+.app-bar{
+  background-color: #141024 !important;
+  &__content {
+
+    }
+  &__item:hover{
+    color: #da3b42 !important;
+  }
+}
