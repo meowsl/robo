@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div class="text-center">
     <v-btn
       color="primary"
@@ -30,4 +30,4 @@
 
 <script setup lang="ts">
 const dialog = ref(false)
-</script>
+</script> -->
