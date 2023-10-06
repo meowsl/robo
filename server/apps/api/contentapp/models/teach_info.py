@@ -33,13 +33,15 @@ class TeachInfo(models.Model):
       verbose_name=_("Должность")
   )
 
-  date_start = models.DateField(
+  date_start = models.CharField(
+      max_length=50,
       blank=True,
       null=True,
       verbose_name=_("Дата начала обучения")
     )
 
-  date_end = models.DateField(
+  date_end = models.CharField(
+      max_length=50,
       blank=True,
       null=True,
       verbose_name=_("Дата окончания обучения")

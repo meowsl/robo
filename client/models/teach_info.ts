@@ -4,12 +4,13 @@ export interface Teachers {
   firstName: string;
   lastName: string;
   position: { name: string } | null;
+
+  dateStart:string;
+  dateEnd:string;
+  studyPlace:string;
+  studyFacult:string;
+  studySpec:string;
+  studyForm:string;
 }
 
 
-export interface PackagesInfo {
-  id: number;
-  name: string;
-  price: string;
-  descript: string;
-}

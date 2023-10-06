@@ -51,10 +51,10 @@
             <v-snackbar
               v-model="snackbar"
               :timeout="5000"
-              location="top"
+              location="bottom"
               color="green"
             >
-              Информация отправлена. Спасибо
+              Заявка оформлена!
             </v-snackbar>
           </VForm>
         </VCol>

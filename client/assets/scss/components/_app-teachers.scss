@@ -8,3 +8,19 @@
     color: rgba(20, 16, 36, 0.7) !important;
   }
 }
+
+.teacher-modal{
+
+  &__contacts{
+    background-color: #141024 !important;
+  }
+  &__info{
+
+    &__title{
+      color: #D52027 !important;
+    }
+  }
+  &__underline{
+    border: 1px solid rgba(20, 16, 36, 0.11);
+  }
+}

@@ -31,7 +31,7 @@
 </template>
 
 <script setup lang="ts">
-import { PackagesInfo } from 'models/teach_info'
+import { PackagesInfo } from 'models/pack_info'
 import { PropType } from 'vue'
 
 defineProps({

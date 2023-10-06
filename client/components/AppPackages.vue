@@ -19,7 +19,7 @@
 </template>
 
 <script setup lang="ts">
-import { PackagesInfo } from 'models/teach_info'
+import { PackagesInfo } from 'models/pack_info'
 
 const { $api } = useNuxtApp()
 const packList = ref<PackagesInfo[]>([])
