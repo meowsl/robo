@@ -25,7 +25,8 @@
             :src="bannerImage"
             width="auto"
             height="auto"
-            max-width="800"
+            max-width="auto"
+            max-height="800"
           />
         </VCol>
       </VRow>
