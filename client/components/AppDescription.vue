@@ -1,5 +1,8 @@
 <template>
-  <div class="description default-spacing">
+  <div
+    class="description default-spacing"
+    id="descriptions"
+  >
     <VContainer class="block-description pa-16">
       <p class="block-description__title">
         <a class="font-weight-bold">Robo School</a> – учреждение для формирования кадрового педагогического резерва в

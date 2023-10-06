@@ -1,24 +1,28 @@
 <template>
-  <div class="teachers default-spacing">
+  <div
+    class="teachers default-spacing"
+    id="teachers"
+  >
     <VContainer class="teachers-block pa-16">
       <p class="block-title">Профессиональные тренеры</p>
-      <VCarousel
-        hide-delimiters
-        height="600"
-        cycle="true"
-        hide-delimiter-background="true"
-        class="teachers-carousel mt-15"
-      >
-        <VCarouselItem
-          cols="4"
-          v-for="teacher in teacherList"
-          :key="teacher.id"
-        >
-          <TeacherCard :teacher="teacher" />
-        </VCarouselItem>
-      </VCarousel>
     </VContainer>
   </div>
+  <VContainer class="d-flex justify-center align-center">
+    <VSlideGroup
+      height="600"
+      class="teachers-carousel mx-16 px-16"
+    >
+      <VSlideGroupItem
+        v-for="teacher in teacherList"
+        :key="teacher.id"
+      >
+        <TeacherCard
+          :teacher="teacher"
+          class="me-16"
+        />
+      </VSlideGroupItem>
+    </VSlideGroup>
+  </VContainer>
 </template>
 
 <script setup lang="ts">

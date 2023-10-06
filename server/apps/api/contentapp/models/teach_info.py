@@ -15,13 +15,13 @@ class TeachInfo(models.Model):
   ]
 
   first_name = models.CharField(
-      max_length=30, 
+      max_length=30,
       blank=False,
       verbose_name=_("Имя")
     )
 
   last_name = models.CharField(
-      max_length=30, 
+      max_length=30,
       blank=False,
       verbose_name=_("Фамилия")
     )
@@ -44,7 +44,7 @@ class TeachInfo(models.Model):
       null=True,
       verbose_name=_("Дата окончания обучения")
     )
-  
+
   study_place = models.TextField(
       blank=True,
       null=True,
@@ -83,3 +83,6 @@ class TeachInfo(models.Model):
   def __str__(self):
     return f'{self.last_name} {self.first_name[0]}. , {self.position}'
 
+  class Meta:
+    verbose_name = _("Тренер")
+    verbose_name_plural = _("Тренеры")

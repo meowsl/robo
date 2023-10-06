@@ -19,19 +19,19 @@
           <VCol class="d-flex align-center justify-space-evenly text-h6">
             <NuxtLink
               class="app-bar__item"
-              to="/"
+              to="#descriptions"
             >
               О школе
             </NuxtLink>
             <NuxtLink
               class="app-bar__item"
-              to="/"
+              to="#teachers"
             >
               Тренеры
             </NuxtLink>
             <NuxtLink
               class="app-bar__item"
-              to="/"
+              to="#packages"
             >
               Стоимость
             </NuxtLink>

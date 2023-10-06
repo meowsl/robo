@@ -6,8 +6,7 @@ class TeachInfoAPIview(generics.ListAPIView):
   queryset = TeachInfo.objects.all()
   serializer_class = TeachInfoAPI
 
-class ApplicationsAPIview(generics.ListAPIView):
-  queryset = Applications.objects.all()
+class ApplicationsCreateAPIview(generics.CreateAPIView):
   serializer_class = ApplicationsAPI
 
 class PackagesInfoAPIview(generics.ListAPIView):

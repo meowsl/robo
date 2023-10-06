@@ -7,14 +7,14 @@ class TeachInfoAPI(serializers.ModelSerializer):
     model = TeachInfo
     fields = (
       "last_name",
-      "first_name", 
+      "first_name",
       "position",
       "date_start",
       "date_end",
       "study_place",
       "study_facult",
       "study_spec",
-      "study_form", 
+      "study_form",
       "photo"
     )
 
@@ -22,11 +22,7 @@ class ApplicationsAPI(serializers.ModelSerializer):
 
   class Meta:
     model = Applications
-    fields = (
-      "name",
-      "phone",
-      "email"
-    )
+    fields = "__all__"
 
 class PackagesInfoAPI(serializers.ModelSerializer):
 

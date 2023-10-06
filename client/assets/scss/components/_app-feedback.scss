@@ -1,23 +1,23 @@
-.request-block{
+.feedback-block{
   background-color: #D52027 !important;
   height: 460px !important;
   position: relative;
   font-size:20px;
 
   &__text{
-    font-size: 36px;
-    font-weight: 600;
     width: 65%;
   }
   &__img{
-    min-width: 100% !important;
+    width: 100vw !important;
     position: absolute !important;
     bottom: 0 !important;
   }
 }
 
+
+
 .form-input{
-  border-radius: 0px !important;
+  // border-radius: 0px !important;
 
   &__btn{
     background-color: #141024 !important;

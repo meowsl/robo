@@ -2,22 +2,17 @@ from django.db import models
 from django.utils.translation import gettext_lazy as _
 
 class Applications(models.Model):
+    name = models.CharField(_("Имя"), max_length=70, null=True, blank=False)
+    phone = models.CharField(_("Телефон"), max_length=16, null=True, blank=False)
+    email = models.EmailField(
+        _("Email"), max_length=254, null=True, blank=False
+    )
 
-  name = models.CharField(
-    max_length=30,
-    blank=False,
-    verbose_name=_("Имя участника")
-  )
-  phone = models.CharField(
-    max_length=16,
-    blank=False,
-    verbose_name=_("Номер телефона")
-  )
-  email = models.CharField(
-    max_length=100,
-    blank=False,
-    verbose_name=_("Почта")
-  )
+    def __str__(self):
+        if self.name:
+            return self.name
+        return "Application - " + str(self.pk)
 
-  def __str__(self):
-    return f'{self.name}/{self.email}'
+    class Meta:
+        verbose_name = _("Заявка")
+        verbose_name_plural = _("Заявки")

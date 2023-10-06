@@ -5,7 +5,7 @@
     <AppResults />
     <AppTeachers />
     <AppPackages />
-    <AppRequest />
+    <AppFeedback />
   </div>
 </template>
 

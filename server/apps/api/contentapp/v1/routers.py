@@ -1,10 +1,10 @@
 from django.urls import path
-from .views import TeachInfoAPIview, ApplicationsAPIview, PackagesInfoAPIview
+from .views import TeachInfoAPIview, ApplicationsCreateAPIview, PackagesInfoAPIview
 
 app_name = "contentapp"
 
 urlpatterns = [
-    path("teachers/", TeachInfoAPIview.as_view(), name="teachs"),
-    path("applics/", ApplicationsAPIview.as_view(), name="apps"),
-    path("packages/", PackagesInfoAPIview.as_view(), name="packs")
+    path("teachers/", TeachInfoAPIview.as_view(), name="teachers"),
+    path("applications/", ApplicationsCreateAPIview.as_view()),
+    path("packages/", PackagesInfoAPIview.as_view(), name="packages")
 ]

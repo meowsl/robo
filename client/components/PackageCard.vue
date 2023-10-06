@@ -11,17 +11,19 @@
       <p class="package-card__price pt-16">
         {{ pack?.price }} ₽
       </p>
-      <VCardText class="package-card__text mt-10 mx-10">
+      <VCardText class="package-card__text text-subtitle-1 mt-10 mx-10">
         {{ pack?.descript }}
       </VCardText>
       <VCardActions>
-        <VBtn
-          variant="total"
-          size="small"
-          class="package-card__button pa-1 ma-5 rounded"
-        >
-          <p class="text-button">Оставить заявку</p>
-        </VBtn>
+        <NuxtLink to="#feedback">
+          <VBtn
+            variant="total"
+            size="small"
+            class="package-card__button pa-1 ma-5 rounded"
+          >
+            <p class="text-button">Оставить заявку</p>
+          </VBtn>
+        </NuxtLink>
       </VCardActions>
 
     </div>

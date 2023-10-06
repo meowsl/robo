@@ -1,5 +1,8 @@
 <template>
-  <div class="packages default-spacing">
+  <div
+    class="packages default-spacing mt-16"
+    id="packages"
+  >
     <VContainer class="packages-block pa-16 align-center">
       <p class="block-title"> Выберите нужный пакет</p>
       <VRow>
