@@ -1,18 +1,18 @@
 .banner{
   background-color: #141024;
   min-height: 100vh;
-  //position: relative !important;
 }
 
 
 .banner-block{
-
   &__btn{
     border-radius: 5px;
     background-color: #D52027 !important;
   }
 }
 
-.test-content{
-  padding-left: 30% !important;
+@media (min-width:1900px) {
+  .test-content{
+    padding-left: 30% !important;
+  }
 }
