@@ -3,13 +3,16 @@
     class="packages default-spacing mt-16"
     id="packages"
   >
-    <VContainer class="packages-block pa-16 align-center">
+    <VContainer class="packages-block pa-4 pa-lg-16 align-center">
       <p class="block-title"> Выберите нужный пакет</p>
       <VRow>
         <VCol
-          cols="4"
+          cols="12"
+          sm="6"
+          md="4"
           v-for="pack in packList"
           :key="pack.id"
+          class="d-flex justify-center"
         >
           <PackageCard :pack="pack" />
         </VCol>

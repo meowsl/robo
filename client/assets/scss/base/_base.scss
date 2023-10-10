@@ -34,4 +34,21 @@ body {
   @media (max-width: 1800px){
     padding:0 10% !important;
   }
+  @media (max-width:1500px){
+    padding:0 0 !important;
+  }
+}
+
+.default-spacing-feedback{
+  padding:0 18% !important;
+
+  @media (max-width: 1900px){
+    padding:0 3% !important;
+  }
+  @media (max-width:960px){
+    padding:0 15% !important
+  }
+  @media (max-width:600px){
+    padding:0 2% !important
+  }
 }

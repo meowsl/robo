@@ -1,6 +1,6 @@
 <template>
   <div
-    class="feedback-block mt-16 w-100"
+    class="feedback-block mt-16 w-100 h-auto"
     id="feedback"
   >
     <VImg
@@ -8,13 +8,19 @@
       class="feedback-block__img"
       cover
     />
-    <VContainer class="default-spacing">
-      <VRow class="text-white text-left py-16">
-        <VCol cols="7">
+    <VContainer class="default-spacing-feedback">
+      <VRow class="text-white text-center text-lg-start d-flex justify-center py-6 py-lg-16">
+        <VCol
+          lg="7"
+          cols="12"
+        >
           <p class="feedback-block__text text-h4 font-weight-bold my-4">Запишитесь на курс со скидкой 10%</p>
           Акция действительна до 10 марта 2022 года
         </VCol>
-        <VCol cols="5">
+        <VCol
+          lg="5"
+          cols="12"
+        >
           <VForm
             @submit.prevent
             class="form-input"

@@ -1,30 +1,32 @@
 <template>
   <VCard
-    class="package-card d-flex align-center justify-center mt-16"
+    class="package-card d-flex align-center justify-center mt-16 "
+    variant="outlined"
+    width="auto"
     max-width="360"
-    max-height="500"
+    height="460"
   >
-    <div class="package-card__content d-flex flex-column justify-center align-center text-center h-auto">
-      <p class="package-card__title">
+    <div class="package-card__content d-flex flex-column justify-space-evenly  align-center text-center h-100">
+      <p class="package-card__title text-h4">
         {{ pack?.name }}
       </p>
-      <p class="package-card__price pt-16">
+      <p class="package-card__price text-h3 pt-16">
         {{ pack?.price }} ₽
       </p>
-      <VCardText class="package-card__text text-subtitle-1 mt-10 mx-10">
+      <p class="package-card__text text-subtitle-1 my-10 mx-10">
         {{ pack?.descript }}
-      </VCardText>
-      <VCardActions>
-        <NuxtLink to="#feedback">
-          <VBtn
-            variant="total"
-            size="small"
-            class="package-card__button pa-1 ma-5 rounded"
-          >
-            <p class="text-button">Оставить заявку</p>
-          </VBtn>
-        </NuxtLink>
-      </VCardActions>
+      </p>
+      <NuxtLink to="#feedback">
+        <VBtn
+          variant="total"
+          size="small"
+          width="auto"
+          height="auto"
+          class="package-card__button py-4 px-14 ma-5 rounded"
+        >
+          <p class="text-button text-capitalize text-white">Оставить заявку</p>
+        </VBtn>
+      </NuxtLink>
 
     </div>
   </VCard>

@@ -17,6 +17,7 @@
           >
             ROBO.SCHOOL
           </NuxtLink>
+
           <VBtn
             variant="tonal"
             class="d-inline d-md-none"
@@ -40,7 +41,7 @@
               class="app-bar__item-menu text-h6"
               to="/"
             >
-              Главная
+              О школе
             </NuxtLink>
           </VListItem>
           <VListItem class="py-0">
@@ -48,7 +49,7 @@
               class="app-bar__item-menu text-h6"
               to="/about-page"
             >
-              О нас
+              Тренеры
             </NuxtLink>
           </VListItem>
           <VListItem class="py-0">
@@ -56,22 +57,8 @@
               class="app-bar__item-menu text-h6"
               to="/waves-page"
             >
-              Направления
+              Стоимость
             </NuxtLink>
-          </VListItem>
-          <VListItem class="py-0">
-            <NuxtLink
-              class="app-bar__item-menu text-h6"
-              to="/information-page"
-            >
-              Полезная информация
-            </NuxtLink>
-          </VListItem>
-          <VListItem class="py-0">
-            <NuxtLink
-              class="app-bar__item-menu text-h6"
-              to="/contacts-page"
-            >Контакты</NuxtLink>
           </VListItem>
         </VList>
       </VMenu>

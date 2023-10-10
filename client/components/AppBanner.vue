@@ -2,7 +2,7 @@
   <div class="banner d-flex align-end pt-16 mt-0 mt-md-10 mt-lg-2">
     <VContainer class="banner-block pb-3 px-0">
       <VRow class="text-white d-flex flex-column flex-lg-row">
-        <VCol class="d-flex align-center justify-center px-12 px-sm-16 px-lg-0">
+        <VCol class="d-flex align-center justify-center px-6 px-sm-16 px-lg-0">
           <div class="test-content d-flex flex-column text-center text-lg-start">
             <p class="text-h4 text-md-h3 text-lg-h2 font-weight-bold">ROBO SCHOOL</p>
             <p class="my-5 my-lg-12 text-white text-subtitle-1 text-md-h6">Курсы повышения квалификации по робототехнике
