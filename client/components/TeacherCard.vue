@@ -1,10 +1,10 @@
 <template>
-  <v-card
+  <VCard
     variant="outlined"
     :border="0"
     class="teacher-card d-flex flex-column "
   >
-    <v-img
+    <VImg
       :width="360"
       :height="500"
       :src="teacher?.photo"
@@ -12,18 +12,18 @@
     >
       <template v-slot:placeholder>
         <div class="d-flex align-center justify-center">
-          <v-progress-circular
+          <VProgressCircular
             color="grey-lighten-4"
             indeterminate
-          ></v-progress-circular>
+          ></VProgressCircular>
         </div>
       </template>
-    </v-img>
+    </VImg>
     <div class="teacher-card__content mt-4 ms-1">
-      <p class="teacher-card__title text-h5 font-weight-bold">
+      <p class="teacher-card__title text-h6 text-md-h5 font-weight-bold">
         {{ teacher?.firstName }} {{ teacher?.lastName }}
       </p>
-      <p class="teacher-card__position text-subtitle-1 font-weight-medium my-4 ">
+      <p class="teacher-card__position text-subtitle-2 text-md-subtitle-1 font-weight-medium my-4 ">
         {{ teacher?.position }}
       </p>
       <VBtn
@@ -54,7 +54,7 @@
                 :src="teacher?.photo"
               />
               <div class="teacher-modal__personal flex-column ms-10 mt-2">
-                <p class="teacher-modal__title text-h5 font-weight-bold">
+                <p class="teacher-modal__title text-h6 font-weight-bold">
                   {{ teacher?.firstName }} {{ teacher?.lastName }}
                 </p>
                 <p class="teacher-modal__position text-subtitle-1 font-weight-medium my-4 ">
@@ -117,7 +117,7 @@
         </VCard>
       </VDialog>
     </div>
-  </v-card>
+  </VCard>
 </template>
 
 <script setup lang="ts">

@@ -1,11 +1,14 @@
 .teacher-card {
 
-  &__title {
-    color: #141024 !important;
-  }
-
   &__text {
     color: rgba(20, 16, 36, 0.7) !important;
+  }
+  &__img{
+
+    @media (max-width:600px){
+      width: 220px !important;
+      height: 305px !important;
+    }
   }
 }
 

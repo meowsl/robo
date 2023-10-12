@@ -4,15 +4,16 @@
     id="packages"
   >
     <VContainer class="packages-block pa-4 pa-lg-16 align-center">
-      <p class="block-title"> Выберите нужный пакет</p>
-      <VRow>
+      <p class="block-title text-center text-lg-start text-h5 text-md-h4 text-lg-h3 font-weight-bold"> Выберите
+        нужный пакет</p>
+      <VRow class="mt-4 mt-lg-8">
         <VCol
           cols="12"
           sm="6"
           md="4"
           v-for="pack in packList"
           :key="pack.id"
-          class="d-flex justify-center"
+          class="d-flex justify-center mt-4"
         >
           <PackageCard :pack="pack" />
         </VCol>

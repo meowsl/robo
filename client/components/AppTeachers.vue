@@ -1,16 +1,16 @@
 <template>
   <div
-    class="teachers default-spacing"
+    class="teachers default-spacing mt-12"
     id="teachers"
   >
-    <VContainer class="teachers-block pa-16">
-      <p class="block-title">Профессиональные тренеры</p>
+    <VContainer class="teachers-block text-center text-lg-start text-center text-lg-start pa-4 pa-lg-16 ">
+      <p class="block-title text-h5 text-md-h4 text-lg-h3 font-weight-bold ">Профессиональные тренеры</p>
     </VContainer>
   </div>
-  <VContainer class="d-flex justify-center align-center">
+  <VContainer class="d-flex justify-center align-center pa-0 pa-md-4">
     <VSlideGroup
       height="600"
-      class="teachers-carousel mx-16 px-16"
+      class="teachers-carousel mx-2 px-2 mx-xl-16 px-xl-16"
     >
       <VSlideGroupItem
         v-for="teacher in teacherList"

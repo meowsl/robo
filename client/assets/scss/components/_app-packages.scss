@@ -1,6 +1,4 @@
 .package-card{
-  // width:360px;
-  // height: 460px;
   color: #141024;
   border:1px solid rgba(20, 16, 36, 0.2) !important;
 
@@ -21,7 +19,7 @@
     font-weight: 600;
   }
   &__button{
-
-    background-color: #D52027;
+    border: none !important;
+    background-color: #D52027 !important;
   }
 }

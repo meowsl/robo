@@ -24,8 +24,6 @@ body {
   margin: 0;
 }
 .block-title {
-  font-size: 50px;
-  font-weight: 600;
   color: #141024;
 }
 .default-spacing{
@@ -45,7 +43,7 @@ body {
   @media (max-width: 1900px){
     padding:0 3% !important;
   }
-  @media (max-width:960px){
+  @media (max-width:1280px){
     padding:0 15% !important
   }
   @media (max-width:600px){
