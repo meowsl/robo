@@ -39,25 +39,48 @@
         width="auto"
       >
         <VCard
-          width="940"
-          height="664"
-          class="teacher-modal pa-10 d-flex flex-column"
+          max-width="940"
+          max-height="664"
+          class="teacher-modal pa-8 pa-md-10 d-flex flex-column"
         >
           <VRow>
             <VCol
               cols="12"
-              class="d-flex flex-row"
+              class="pa-0 d-flex justify-end"
+            >
+              <VBtn
+                variant="text"
+                max-height="30"
+                max-width="30"
+                icon="true"
+                @click="dialog = false"
+                class="d-flex d-sm-none"
+              >
+                <VImg
+                  :src="iconClose"
+                  width="15"
+                  height="15"
+                >
+                </VImg>
+
+              </VBtn>
+            </VCol>
+            <VCol
+              cols="12"
+              class="d-flex flex-row pa-0 pa-md-auto align-start"
             >
               <VImg
-                :max-width="160"
-                :max-height="222"
+                max-width="160"
+                max-height="222"
+                min-height="100"
+                min-width="72"
                 :src="teacher?.photo"
               />
-              <div class="teacher-modal__personal flex-column ms-10 mt-2">
-                <p class="teacher-modal__title text-h6 font-weight-bold">
+              <div class="teacher-modal__personal flex-column ms-4 ms-md-10">
+                <p class="teacher-modal__title text-subtitle-1 text-md-h6 font-weight-bold">
                   {{ teacher?.firstName }} {{ teacher?.lastName }}
                 </p>
-                <p class="teacher-modal__position text-subtitle-1 font-weight-medium my-4 ">
+                <p class="teacher-modal__position text-caption text-md-subtitle-1 font-weight-medium my-1 my-md-4 ">
                   {{ teacher?.position }}
                 </p>
                 <VBtn
@@ -92,7 +115,7 @@
                 color="primary"
                 variant="text"
                 @click="dialog = false"
-                class="mt-2"
+                class="mt-2 d-none d-sm-inline"
               >
                 <p class="text-capitalize text-medium-emphasis">Закрыть</p>
               </VBtn>
@@ -103,8 +126,8 @@
               class="teacher-modal__info d-flex flex-column"
             >
               <p class="teacher-modal__info__title font-weight-regular text-h6">Информация</p>
-              <div class="teacher-modal__underline my-4"></div>
-              <div class="teacher-modal__info__content text-h6">
+              <div class="teacher-modal__underline my-4 d-none d-md-inline"></div>
+              <div class="teacher-modal__info__content mt-4 mt-md-0 text-subtitle-2 text-md-h6">
                 <p>{{ teacher?.dateStart }} — {{ teacher?.dateEnd }}</p>
                 <p>{{ teacher?.studyPlace }}</p>
                 <p>Факультет: {{ teacher?.studyFacult }}</p>
@@ -123,6 +146,7 @@
 <script setup lang="ts">
 import facebookIcon from 'images/icon-facebook.svg'
 import instIcon from 'images/icon-inst.svg'
+import iconClose from 'images/icon_close_modal.svg'
 import { Teachers } from 'models/teach_info'
 import { PropType } from 'vue'
 const dialog = ref(false)

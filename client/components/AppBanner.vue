@@ -24,12 +24,14 @@
         </VCol>
         <VCol class="pb-6 pb-lg-0 d-flex justify-center px-10 px-lg-0 flex-column">
           <VImg
-            class="banner-block__img align-end mx-16 mx-lg-0"
+            class="banner-block__img align-end mx-16 mx-auto mx-lg-0"
             :src="bannerImage"
             :width="auto"
             :height="auto"
             max-width="700"
             max-height="800"
+            min-height="320"
+            min-width="273"
           />
           <VBtn
             variant="tonal"

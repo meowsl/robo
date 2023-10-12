@@ -30,7 +30,6 @@
               :error-messages="v$.name.$errors.map(e => e.$message)"
               single-line
               placeholder="Имя"
-              class="form-input"
             ></VTextField>
             <VTextField
               v-model="state.phone"
